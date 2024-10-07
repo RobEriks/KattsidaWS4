@@ -1,8 +1,22 @@
 # Responsiv kattsida
 
-Er uppgift är att göra kattsidan responsiv. Lägg även till valfria visuella effekter när man rör
+Er uppgift är att göra kattsidan responsiv. Lägg även till valfria visuella effekter (hover) när man rör
 muspekaren över bilder och knappar. I mobil-läge ska navigeringen bytas ut mot en hamburgarmeny,
 men den behöver inte vara klickbar.
+
+Knappen Bli medlem ska öppna en ny sida med ett registreringsformulär. Formuläret ska innehålla följande:
+
+- Förnamn
+- Efternamn
+- Användarnamn
+- Lösenord
+- E-post
+- Favorit-kattras från dropdown (select i html)
+- Godkänna villkoren (checkbox i html)
+
+Formuläret ska kunna skickas till https://httpbin.org/anything
+
+Formuläret ska även vara responsivt.
 
 ## Hur du klarar uppgiften
 
