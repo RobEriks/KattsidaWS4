@@ -19,10 +19,17 @@ nav {
   padding: 10px;
 }
 
+
+/* Denna har jag lagt till för att få en hover effekt på nav */
 nav a {
   color: #fff;
   text-decoration: none;
   margin: 0 20px;
+}
+
+nav a:hover {
+  color: #aaa9a9;
+  border-radius: 5px;
 }
 
 main {
@@ -37,6 +44,10 @@ main {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.button:hover {
+  background-color: #534848;
 }
 
 .container {
@@ -63,10 +74,17 @@ main {
   width: 50%;
   height: auto;
   border-radius: 10px;
+  
 }
 
 .section1 h2 {
   font-size: 2.5rem;
+}
+
+/* Första bilden har nu en extra scale om man håller på den */
+.section1 img:hover {
+  transform: scale(1.1);
+  
 }
 
 .catGrid {
@@ -85,4 +103,64 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px;
+}
+
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+}
+
+/* Denna för 768px skärm (tex laptop) */
+@media (max-width: 768px) {
+
+
+  img[src="images/2.jpeg"] {
+    width: 100%;  
+    
+  }
+
+ 
+/* Denna tar bort vanliga nav delen i mobilläge */
+  nav {
+    display: none;
+  }
+
+  /* Lägger till hamburger delen */
+  .hamburger {
+    display: flex;
+    font-size: 2rem;
+    margin-right: 10px;
+  
+}
+  /* Snyggar till övre delen (tex översta bilden) */
+  .section1 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section1 img {
+    width: 80%; 
+    margin-bottom: 20px;
+  }
+
+  
+
+  
+
+ 
+
+ 
+
+  
+
+  
 }
