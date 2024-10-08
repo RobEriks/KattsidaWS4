@@ -81,10 +81,10 @@ main {
   font-size: 2.5rem;
 }
 
-/* Första bilden har nu en extra scale om man håller på den */
-.section1 img:hover {
-  transform: scale(1.1);
-  
+
+/* Minskar bilderna vid hover */
+.section img:hover {
+transform: scale(0.8);
 }
 
 .catGrid {
